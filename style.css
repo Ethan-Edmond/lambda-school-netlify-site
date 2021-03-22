@@ -1,0 +1,152 @@
+/* Add CSS for your webpage here
+
+CSS requirements:
+* a tag selector
+* a class selector
+* an id selector
+* use the following attributes: height, width, border, color, background-color, font-size
+* add margin and padding to two different elements  
+
+Stretch Goal: Use online resources to learn a little about the CSS properties of 'display' and 'position'. Incorporate them into your page.
+*/
+html {
+    height: 100%;
+    overflow: auto;
+}
+body {
+    background-image: url("./dreamy-cloud-background.jpg");
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+header {
+    overflow: auto;
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e6e6e6;
+    border-width: 0 0 6px 0;
+    position: relative;
+}
+header h1 {
+    font-family: sans;
+    color: #202020;
+    font-size: 48px;
+}
+header img {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    border-radius: 50px;
+}
+header img:hover {
+    background: #797db9;
+}
+::selection {
+    background: #9ea0b9;
+}
+main {
+    padding: 3% 15% 0;
+}
+#fib-1-container {
+    width:100%;
+    height: 1000px;
+    display: flex;
+}
+#fib-1-wrapper {
+    padding: 5% 5% 5% 5%;
+
+}
+#fib-2-container {
+}
+#fib-2-wrapper {
+    padding: 10% 0 10% 0;
+    overflow: auto;
+}
+
+#fib-2-wrapper .fib-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fib-content {
+    background: white;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    border: 6px solid #e6e6e6;
+    padding: 50px;
+}
+
+#fib-3-container {
+    display: flex;
+}
+#fib-3-wrapper {
+    padding: 0 0 10% 10%;
+}
+#fib-3-wrapper .fib-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fib-3-wrapper img {
+    width: 100%;
+}
+#fib-4-container {
+}
+#fib-4-spacer {
+}
+#fib-4-wrapper {
+    padding: 0 0 20% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fib-4-wrapper .fib-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fib-4-wrapper button {
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
+.fib-horiz-box {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.fib-vert-box {
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #202020;
+    font-size: 42px;
+    text-align: center;
+    font-family: sans;
+}
+
+p {
+    color: #202020;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 2.6em;
+}
+span {
+    font-style: italic;
+    color: black;
+}
+ul li {
+    font-size: 30px;
+    text-align: justify;
+    list-style-type: none;
+    color: #202020;
+    line-height: 2em;
+}
